@@ -41,6 +41,31 @@ function Features({ list }) {
               }}
             >
               <motion.div
+                initial={{
+                  backgroundColor: "transparent",
+                  opacity: 0,
+                  // y:'-0px'
+                  //   backdropFilter: "blur(0px)",
+                }}
+                animate={
+                  hover
+                    ? {
+                        backgroundColor: "black",
+                        opacity: 0.4,
+                        // y:'-10px'
+                        // backdropFilter: "blur(8px)",
+                      }
+                    : {
+                        backgroundColor: "transparent",
+                        // y:'-30px',
+                        opacity: 0,
+                        // backdropFilter: "blur(0px)",
+                      }
+                }
+                transition={{ duration: 0.3, ease: "easeOut" }}
+                className="absolute w-full h-full  "
+              />
+              <motion.div
                 initial={{ y: 30, opacity: 0 }}
                 animate={hover ? { y: 0, opacity: 1 } : { y: 30, opacity: 0 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}

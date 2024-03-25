@@ -17,27 +17,27 @@ function App() {
     {
       title:'Intelligent control',
       desc:'Web app control by mobile, automatic cleaning time and cleaning mode can be set',
-  img:'https://pixlr.com/images/index/ai-image-generator-two.webp'
+  img:'https://media.istockphoto.com/id/1536981558/vector/ai-workstation-3d-illustration.jpg?s=612x612&w=0&k=20&c=DJ3-XlUNAGXdvFtZbJgDVI4TAqd3B0S9jFaJBOsgpyk='
     },{
       title:'Solar power system',
       desc:'Self-charging-comes with a solar power system, convenient and efficient, can last 8-10 hours',
-  img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D'
+  img:'https://garlanduk.com/wp-content/uploads/2022/01/Solarise_PV_System_Header.jpg'
     },{
       title:'Internet of things technology application',
       desc:'Independent control, grouping, automatic cleaning',
-  img:'https://burst.shopifycdn.com/photos/cave-of-wonder-and-lights.jpg?width=1000&format=pjpg&exif=0&iptc=0'
+  img:'https://images.prismic.io//intuzwebsite/2cd79a86-fb05-40c6-b966-a8cefb853abb_IoT+development+tools+%26+platforms.png?w=1200&q=75&auto=format,compress&fm=png8'
     },{
       title:'Strong adaptability',
       desc:'Applicable to various arrangement arrays and various power stations',
-  img:'https://burst.shopifycdn.com/photos/cave-of-wonder-and-lights.jpg?width=1000&format=pjpg&exif=0&iptc=0'
+  img:'https://cdn.chinadialogue.net/content/uploads/2023/01/31173801/The-Garissa-solar-power-plant-in-eastern-Kenya_Alamy_2J40Y69.jpg'
     },{
       title:'1 min disassembly and assembly of brushes',
       desc:'Applicable to various arrangement arrays and various power stations',
-  img:'https://burst.shopifycdn.com/photos/cave-of-wonder-and-lights.jpg?width=1000&format=pjpg&exif=0&iptc=0'
+  img:'https://5.imimg.com/data5/SELLER/Default/2023/5/305418121/ZE/PD/RA/69141292/double-head-electric-solar-panel-cleaning-brush.jpeg'
     },{
       title:'Adjusting the brush up and down',
       desc:'When the brush wears out, the cleaning ability decreases. You can adjust the brush downward to increase the cleaning ability and double the service life of the brush',
-  img:'https://burst.shopifycdn.com/photos/cave-of-wonder-and-lights.jpg?width=1000&format=pjpg&exif=0&iptc=0'
+  img:'https://soilar.tech/wp-content/uploads/KWUMPHI.png'
     },
 
   ]
