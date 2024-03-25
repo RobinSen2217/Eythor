@@ -36,7 +36,7 @@ function Contact() {
       );
   };
   return (
-    <div className="w-full">
+    <div className="w-full" id="contact">
       <Heading content={"Contact Us"} />
       <div className="flex min-[500px]:flex-nowrap flex-wrap justify-center gap-y-3 w-11/12 sm:w-9/12 mx-auto mt-14 mb-6 gap-x-6">
         <div className="flex flex-col w-full min-[500px]:w-1/2 items-center justify-center">

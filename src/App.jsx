@@ -9,7 +9,7 @@ import About from "./Components/About";
 import Features from "./Components/Features";
 import './App.css'
 import Contact from "./Components/Contact";
-
+import { useState,useEffect } from "react";
 
 function App() {
 
@@ -42,9 +42,19 @@ function App() {
 
   ]
 
+
+  const [change, setChange] = useState(false);
+  useEffect(()=>{
+    if (window.innerWidth<840){
+      setChange(true)
+    }else{
+      setChange(false)
+    }
+  },[])
+
   return (
     <Router>
-      {/* <Navbar /> */}
+     {change?<></>: <Navbar />}
       <ScrollTopButton />
       <Routes>
         <Route
